@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container.top-bar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 109.8px;
+    z-index: 9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #F1F1F1;
+    font-family: 'Nexa Light';
+    text-transform: uppercase;
+    padding-top: 0;
+    margin-top: 40px;
+    font-size: 24px;
+}
+nav>li>a {
+    padding: 10px 50px;
+}
+
+.line>hr {
+    margin-top: 120px;
+
+}
+
+.navbar-nav>li>a:hover {
+    color: #333;
+}
+
+.line {
+    padding: 0 52px;
+}
+
+.container-fluid.main-img  {
+    background-image: url('../images/img-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.logo-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-txt {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nexa Light';
+    font-size: 3em;
+    margin-top: 55px;
+}
+.header-txt span {
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 136px;
+    font-family: 'Nexa Bold', sans-serif;
+}
+.header-txt img {
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+.header-txt img:hover {
+    cursor: pointer;
+}
+
+.container-fluid.about {
+    text-align: center;
+}
+
+.nav.navbar-nav {
+    display: inline-block;
+    float: none;
+    font-family: 'Nexa Light';
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.navbar-nav>li>a {
+    color: #BEBEBE;
+}
+.line-about{
+    margin-top: 20px;
+    padding: 0 52px;
+    margin-bottom: 75px;
+}
+.header-about {
+    padding-left: 5%;
+    margin-top: 40px;
+}
+
+.header-about h1 {
+    font-family: 'Nexa Light';
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.name {
+    margin-top: 70px;
+}
+
+.header-about p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.about h3{
+    color: #BEBEBE;
+}
+
+.container-fluid.portfolio {
+    background-image: url('../images/bg-portfolio_06.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio>.line>hr {
+    margin-top: 0px;
+}
+.portfolio h1 {
+    font-family: 'Nexa Light';
+    text-transform: uppercase;
+    color: #F1F1F1;
+    margin-top: 90px;
+}
+
+
+.portfolio .navbar-nav>li>a:hover {
+    color: #EAEAEA;
+}
+
+
+.portfolio h3 {
+    color: #BEBEBE;
+}
+
+.img-item {
+    width: 16%;
+    float: left;
+    margin: 2% 2% 50px 2%;
+}
+
+.img-item img {
+    max-width: 100%;
+}
+
+.img-wrapper {
+    display: inline-block;
+    /*width: 1200px;*/
+    margin: 0 auto;
+    width: 80%;
+}
+.air {
+    width: 100%;
+    height: 15px;
+    clear: both;
+}
+
+/** contact block **/
+
+.contact {
+    text-align: center;
+}
+
+.contact hr {
+    margin-top: 40px;
+}
+
+.contact h4 {
+    font-family: 'Nexa Bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact h1 {
+    font-family: 'Nexa Light';
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.contact h4.phone, h4.media{
+    margin-top: 64px;
+}
+
+.wrapper-social {
+    border-radius: 50%;
+    border: 2px solid #202020;
+    width: 57px;
+    height: 57px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 37px;
+}
+.wrapper-social:last-child {
+    margin-right: 0px;
+}
+
+.fa-3x {
+    padding-top: 8px;
+}
+
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nexa Light';
+    color: #CFCFCF;
+}
+
+.footer h3 {
+    margin-top: 44px;
+}
+
+hr {
+    border-top: 2px solid #BEBEBE;
+}
+
+.footer a {
+    color: #CFCFCF;
+}
+
+.footer a:hover {
+    color: #333;
+}

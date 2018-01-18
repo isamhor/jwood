@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1006px){
+    .header-txt h1, .contact h1{
+        font-size:  1.7em;
+    }
+}
+
+@media only screen and (max-width: 864px){
+    .header-txt h1, .contact h1 {
+        font-size:  1.4em;
+    }
+}
+
+@media only screen and (max-width: 715px){
+    .header-txt h1, .contact h1 {
+        font-size:  1em;
+    }
+}
+
+@media only screen and (max-width: 524px){
+    .header-txt h1 {
+        font-size:  0.5em;
+    }
+    .container-fluid.about h3 {
+        margin-top: 20px;
+    }
+    .header-about p {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-about {
+        margin-top: 0;
+    }
+}
